@@ -11,7 +11,7 @@ class Scraper
   end
 
   def get_courses
-    elf.get_page.css(".post")
+    self.get_page.css(".post")
   end
 
 
